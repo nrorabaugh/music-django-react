@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework',
     'tunr_app'
 ]
 
@@ -84,6 +85,12 @@ DATABASES = {
     }
 }
 
+#REST Framework Permissions
+# REST_FRAMEWORK = {
+#     'DEFAULT_PERMISSION_CLASSES': {
+#         'rest_framework.permissions.AllowAny', 
+#     }
+# }
 
 # Password validation
 # https://docs.djangoproject.com/en/2.2/ref/settings/#auth-password-validators
